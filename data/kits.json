@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/kitsprontos/kit1.JPG",
+        "nome": "KIT ESPECIAL FÉ BANHADO A OURO 18K",
+        "preco": "300,00R$"
+    },
+    {
+        "id": 2,
+        "imagem": "img/kitsprontos/kit2.JPG",
+        "nome": "KIT GRUMMET 8MM FÉ BANHADO A OURO 18K",
+        "preco": "280,00R$"
+    },
+    {
+        "id": 3,
+        "imagem": "img/kitsprontos/kit3.JPG",
+        "nome": "KIT ESPECIAL PITBULL 8MM FÉ BANHADO A OURO 18K",
+        "preco": "320,00R$"
+    },
+    {
+        "id": 4,
+        "imagem": "img/kitsprontos/kit4.JPG",
+        "nome": "KIT ESPECIAL PITBULL 8MM FÉ BANHADO A OURO 18K",
+        "preco": "320,00R$"
+    },
+    {
+        "id": 5,
+        "imagem": "img/kitsprontos/kit5.JPG",
+        "nome": "KIT GRUMMET FINA 6MM FÉ BANHADO A OURO 18K",
+        "preco": "270,00R$"
+    },
+    {
+        "id": 6,
+        "imagem": "img/kitsprontos/kit6.JPG",
+        "nome": "KIT KIT ESPECIAL SANTA FÉ BANHADO A OURO 18K",
+        "preco": "320,00R$"
+    },
+    {
+        "id": 7,
+        "imagem": "img/kitsprontos/kit6.JPG",
+        "nome": "KIT KIT ESPECIAL SANTA FÉ BANHADO A OURO 18K",
+        "preco": "320,00R$"
+    },
+    {
+        "id": 8,
+        "imagem": "img/kitsprontos/kit6.JPG",
+        "nome": "KIT KIT ESPECIAL SANTA FÉ BANHADO A OURO 18K",
+        "preco": "320,00R$"
+    }
+]

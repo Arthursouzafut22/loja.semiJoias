@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/pingentes/pg1.jpg",
+        "nome": "PINGENTE CRISTO BANHADO A OURO 18K",
+        "preco": "90,00R$"
+    },
+    {
+        "id": 2,
+        "imagem": "img/pingentes/pg2.jpg",
+        "nome": "PINGENTE MÃO FÉ BANHADO A OURO 18K",
+        "preco": "90,00R$"
+    },
+    {
+        "id": 3,
+        "imagem": "img/pingentes/pg4.jpg",
+        "nome": "PINGENTE JESUS E O DONO BANHADO A OURO 18K",
+        "preco": "100,00R$"
+    },
+    {
+        "id": 4,
+        "imagem": "img/pingentes/pg4.jpg",
+        "nome": "PINGENTE SANTA MARIA BANHADO A OURO 18K",
+        "preco": "80,00R$"
+    },
+    {
+        "id": 5,
+        "imagem": "img/pingentes/pg5.jpg",
+        "nome": "PINGENTE SÃO JORGE BANHADO A OURO 18K",
+        "preco": "80,00R$"
+    },
+    {
+        "id": 6,
+        "imagem": "img/pingentes/pg6.jpg",
+        "nome": "PINGENTE REVOADA BANHADO A OURO 18K",
+        "preco": "70,00R$"
+    },
+    {
+        "id": 7,
+        "imagem": "img/pingentes/pg7.jpg",
+        "nome": "PINGENTE CRUZ CRAVEJADO BANHADO A OURO 18K",
+        "preco": "90,00R$"
+    },
+    {
+        "id": 8,
+        "imagem": "img/pingentes/pg8.jpg",
+        "nome": "PINGENTE SANTA MARIA P BANHADO A OURO 18K",
+        "preco": "50,00R$"
+    }
+]

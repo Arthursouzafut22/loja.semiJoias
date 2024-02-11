@@ -1,0 +1,122 @@
+.main {
+  /* border: 2px solid wheat; */
+  max-width: 100%;
+}
+
+.conteiner-product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.item-product {
+  border: 2px solid #1a1a1a;
+  max-width: 100%;
+  width: 250px;
+  padding: 7px 6px;
+  border-radius: 10px;
+  animation: animeJoias 0.5s forwards;
+}
+
+.item-product p {
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  animation: animeJoias 0.5s forwards;
+}
+
+.img-product {
+  display: block;
+  max-width: 100%;
+  animation: animeJoias 0.3s forwards;
+  height: auto;
+}
+
+.conteiner-preco {
+  /* border: 2px solid wheat; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animeJoias 0.8s forwards;
+}
+
+.conteiner-preco :nth-child(1) {
+  margin-right: 12px;
+  display: block;
+}
+
+.conteiner-preco :nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  color: #e6c364;
+}
+
+.btn-verMais {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #e6c364;
+  color: #e6c364;
+  outline: none;
+  background-color: black;
+  border-radius: 11px;
+  margin: 5px auto;
+  padding: 10px 0px;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  animation: animeJoias 0.9s forwards;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  animation: animeJoias 0.7s forwards;
+}
+
+.rating:not(:checked) > input {
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  cursor: pointer;
+  font-size: 28px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: "★";
+}
+
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #ffbd39;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffbd39;
+}
+
+.rating > input:checked ~ label {
+  color: #ffbd39;
+}
+
+@keyframes animeJoias {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
