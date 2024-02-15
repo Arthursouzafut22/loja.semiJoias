@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  max-width: 140px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  color: #e6c364;
+  border: 2px solid;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-carrinho {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-carrinho img {
+  max-width: 50px;
+}

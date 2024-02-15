@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Semijoias</title>
   </head>
   <body>
@@ -21,68 +21,42 @@
         <button onclick="fatchJoias('kitsprontos')">Kits prontos</button>
       </nav>
       <button class="btn-carrinho">
-        <img src="img/logo/carrinho-de-compras.png" alt="" />
+        <img src="img/logo/carrinho-de-compras.png" alt="carrinho-de-compras"/>
       </button>
       <div class="cart-compras">
         <div class="cc-cart">
           <span>Carrinhos de compras</span>
           <button class="btn-fechar">
-            <img src="img/logo/excluir (1).png" alt="" />
+            <img src="img/logo/excluir (1).png" alt="excluir"/>
           </button>
+        </div>
+
+        <div class="parabens">
+          <div class="cc-parabens">
+            <img src="img/logo/caminhao-de-entrega.png" alt="caminhao"/>
+            <div class="progress"></div>
+          </div>
+          <span class="span-happy"
+            >PARABÉNS VOCÊ GANHOU <span class="frete">FRETE GRÁTIS!</span></span
+          >
+        </div>
+
+        <div class="sacola"></div>
+
+        <div class="conteiner-final">
+          <div class="conteiner-valor">
+            <span class="total">Total:</span>
+            <div class="valorFinal"><span>R$</span class="totalPreco">00,00</div>
+          </div>
+          <button class="btn-finalizar">Finalizar Compra</button>
         </div>
       </div>
     </header>
 
     <main class="main">
-      <div class="conteiner-product">
-
-        
-        <div class="item-product">
-          <img
-            class="img-product"
-            src="${produto.imagem}"
-            alt="img"
-          />
-          <p>${produto.preco}</p>
-
-          <div class="rating">
-            <input value="5" name="rate" id="star5" type="radio" >
-            <label title="text" for="star5"></label >
-            <input value="4" name="rate" id="star4" type="radio" >
-            <label title="text" for="star4"></label>
-            <input value="3" name="rate" id="star3" type="radio" checked=""/>
-            <label title="text" for="star3"></label>
-            <input value="2" name="rate" id="star2" type="radio" >
-            <label title="text" for="star2"></label>
-            <input value="1" name="rate" id="star1" type="radio" >
-            <label title="text" for="star1"></label>
-          </div>
-
-
-
-
-
-
-          <div class="conteiner-preco">
-            <s>R$60,00</s>
-            <span>${produto.preco}</span>
-          </div>
-          <button class="btn-verMais">Ver mais</button>
-        </div>
-      </div>
-
-
+      <div class="conteiner-product"></div>
     </main>
 
-    <!-- <div class="item-product">
-      <img class="img-product" src="img/correntes/corrente4.jpg" alt="img" />
-      <p>CORRENTE CADEADO 4MM BANHADO A OURO 18K</p>
-      <div class="conteiner-preco">
-        <s>R$60,00</s>
-        <span>R$150,00</span>
-      </div>
-      <button class="btn-verMais">Ver mais</button>
-    </div> -->
 
     <script src="script.js"></script>
   </body>

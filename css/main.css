@@ -1,5 +1,4 @@
 .main {
-  /* border: 2px solid wheat; */
   max-width: 100%;
 }
 
@@ -14,7 +13,7 @@
 }
 
 .item-product {
-  border: 2px solid #1a1a1a;
+  border: 3px solid #1a1a1a;
   max-width: 100%;
   width: 250px;
   padding: 7px 6px;
@@ -25,7 +24,6 @@
 .item-product p {
   text-align: center;
   margin: 5px 0px 0px 0px;
-  animation: animeJoias 0.5s forwards;
 }
 
 .img-product {
@@ -36,11 +34,9 @@
 }
 
 .conteiner-preco {
-  /* border: 2px solid wheat; */
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: animeJoias 0.8s forwards;
 }
 
 .conteiner-preco :nth-child(1) {
@@ -66,9 +62,15 @@
   margin: 5px auto;
   padding: 10px 0px;
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  animation: animeJoias 0.9s forwards;
+}
+
+.icon-card {
+  width: 23px;
+  margin-left: 4px;
 }
 
 .rating {
@@ -76,7 +78,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  animation: animeJoias 0.7s forwards;
 }
 
 .rating:not(:checked) > input {
@@ -113,10 +114,10 @@
 @keyframes animeJoias {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(200%);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 }

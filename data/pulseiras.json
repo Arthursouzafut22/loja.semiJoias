@@ -3,48 +3,56 @@
         "id": 1,
         "imagem": "img/pulseiras/pulseira1.JPG",
         "nome": "PULSEIRA GRUMMET 5MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "110,00R$"
      },
      {
         "id": 2,
         "imagem": "img/pulseiras/pulseira2.JPG",
         "nome": "PULSEIRA CADEAD0 6MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "110,00R$"
      },
      {
         "id": 3,
         "imagem": "img/pulseiras/pulseira3.JPG",
         "nome": "PULSEIRA GRUMMET 4MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "100,00R$"
      },
      {
         "id": 4,
         "imagem": "img/pulseiras/pulseira4.JPG",
         "nome": "PULSEIRA GRUMMET 3MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "90,00R$"
      },
      {
         "id": 5,
         "imagem": "img/pulseiras/pulseira5.JPG",
         "nome": "PULSEIRA CARTIER 5MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "100,00R$"
      },
      {
         "id": 6,
         "imagem": "img/pulseiras/pulseira6.JPG",
         "nome": "PULSEIRA ELO BAIANO 5MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "100,00R$"
      },
      {
         "id": 7,
         "imagem": "img/pulseiras/pulseira7.JPG",
         "nome": "PULSEIRA LACRAIA 5MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "120,00R$"
      },
      {
         "id": 8,
         "imagem": "img/pulseiras/pulseira8.JPG",
         "nome": "PULSEIRA GRUMMET 8MM BANHADO A OURO 18K",
+        "tipo": "pulseira",
         "preco": "150,00R$"
      }
 ]

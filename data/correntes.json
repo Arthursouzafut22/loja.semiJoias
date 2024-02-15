@@ -3,48 +3,56 @@
     "id": 1,
     "imagem": "img/correntes/corrente1.jpg",
     "nome": "CORRENTE GRUMMET FINA 4MM BANHADO A OURO 18K",
+    "tipo": "corrente",
     "preco": "180,00R$"
  },
  {
     "id": 2,
     "imagem": "img/correntes/corrente2.jpg",
     "nome": "CORRENTE CADEADO 4MM BANHADO A OURO 18K",
+    "tipo": "corrente",
     "preco": "150,00R$"
  },
  {
    "id": 3,
    "imagem": "img/correntes/corrente3.jpg",
    "nome": "CORRENTE GRUMMET 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "170,00R$"
 },
 {
    "id": 4,
    "imagem": "img/correntes/corrente4.jpg",
    "nome": "CORRENTE CADEADO 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "170,00R$"
 },
 {
    "id": 5,
    "imagem": "img/correntes/corrente5.jpg",
    "nome": "CORRENTE GRUMMET 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "200,00R$"
 },
 {
    "id": 6,
    "imagem": "img/correntes/corrente6.jpg",
    "nome": "CORRENTE CADEADO 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "170,00R$"
 },
 {
    "id": 7,
    "imagem": "img/correntes/corrente7.jpg",
    "nome": "CORRENTE GRUMMET 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "200,00R$"
 },
 {
    "id": 8,
    "imagem": "img/correntes/corrente8.jpg",
    "nome": "CORRENTE LACRAIA 4MM BANHADO A OURO 18K",
+   "tipo": "corrente",
    "preco": "185,00R$"
 }
 ]
